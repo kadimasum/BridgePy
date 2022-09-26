@@ -6,16 +6,11 @@ Pseudocode
 ------------
 1. Write fun recur_fuctorial(n)
 2. if n == 1 return n
-3. else Call recur_fuctorial(n - 1) and store it in a temp variable
-4. return temp *= n
+3. else return n * recur_fuctorial(n - 1)
 '''
 def recur_factorial(n):
-    if n == 1:
-        return n
-    else:
-        temp = recur_factorial(n - 1)
-        temp *= n
-        return temp
+    if n == 1: return n
+    else: return n * recur_factorial(n - 1)
 
 print(recur_factorial(4))
 
