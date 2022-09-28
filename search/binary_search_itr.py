@@ -1,6 +1,6 @@
 def binary_itr(arr, start, end, target):
     while start <= end:
-        mid = (start + end) // 2
+        mid = (start + end - 1) // 2
         if arr[mid] < target:
             start = mid + 1
         elif arr[mid] > target:
@@ -12,5 +12,5 @@ def binary_itr(arr, start, end, target):
     return -1
 
 arr = [6,4,5,8,3]
-result = binary_itr(arr, 0, len(arr), 5)
+result = binary_itr(arr, 0, len(arr) - 1, 5)
 print(result)
