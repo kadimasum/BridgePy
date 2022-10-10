@@ -30,6 +30,6 @@ print(max_steps(128))
         
 
 '''
-Time complexity = O(n)
+Time complexity = O(log n) - Logarithmic time
 Space complexity = O(1)
 '''
