@@ -21,5 +21,6 @@ def solution(A):
 
 
  
-result = solution([1,2,4])
+result = solution([2,2,3,4])
 print(result)
+

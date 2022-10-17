@@ -65,7 +65,9 @@ MyStack.push(4)
 MyStack.pop() 
 MyStack.pop() 
 MyStack.pop()    
-MyStack.pop()    
+MyStack.pop()  
+MyStack.push(9)   
+
 
 
 
