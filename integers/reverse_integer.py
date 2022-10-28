@@ -25,7 +25,7 @@ def reverse_int(num):
     if num < 0: return reversed_int * -1
     return reversed_int
 
-result = reverse_int(-345)
+result = reverse_int(67845)
 print(result)
 
 '''
