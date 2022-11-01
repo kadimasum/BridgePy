@@ -38,7 +38,7 @@ def twoNumberSum(A, target):
 
     return []
 
-result = twoNumberSum([2,4,6,7], 19)
+result = twoNumberSum([2,4,6,7], 9)
 print(result)
 
 '''
