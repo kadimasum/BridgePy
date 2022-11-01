@@ -36,8 +36,9 @@ def twoNumberSum(A, target):
             return [complement, A[i]]
         map[A[i]] = i
 
+    return []
 
-result = twoNumberSum([2,4,6,7], 9)
+result = twoNumberSum([2,4,6,7], 19)
 print(result)
 
 '''
