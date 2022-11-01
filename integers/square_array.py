@@ -25,8 +25,12 @@ def square_array(A):
     for i in range(len(A)):
         A[i] = A[i] * A[i]
 
-
     return A
 
 result = square_array([1,2,3,4,5])
 print(result)
+
+'''
+Space complexity = O(1)
+Time complexity = O(n)
+'''
