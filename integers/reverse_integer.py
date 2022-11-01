@@ -14,15 +14,19 @@ ___________
 '''
 
 def reverse_int(num):
+
     abs_num = abs(num)
 
     if num == 0: return num
+
     reversed_int = 0
+
     while abs_num != 0:
         reversed_int = (reversed_int * 10) + (abs_num % 10)
         abs_num //= 10
 
     if num < 0: return reversed_int * -1
+    
     return reversed_int
 
 result = reverse_int(67845)
