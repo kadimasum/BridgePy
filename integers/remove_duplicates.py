@@ -15,3 +15,8 @@ def remove_duplicates(A):
 
 result = remove_duplicates([2,5,2,4,2,6,1,1])
 print(result)
+
+'''
+Time complexity = O(n)
+Space complexity = O(n)
+'''
