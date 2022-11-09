@@ -104,10 +104,6 @@ class LinkedList:
             current = current.next
             count += 1
 
-
-
-
-
 if __name__ == '__main__':
     li = LinkedList()
     li.insert_at_begining(5)
