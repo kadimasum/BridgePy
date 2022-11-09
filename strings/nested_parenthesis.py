@@ -8,11 +8,10 @@ example, the strings "(())" and "()()" are correctly nested but "(()()" and ")
 def check_nesting(s):
     if len(s) % 2 != 0: return False
     counter = 0
-    list_s = list(s)
-    for i in range(len(list_s)):
-        if list_s[i] == "(":
+    for i in range(len(s)):
+        if s[i] == "(":
             counter += 1
-        elif list_s[i] == ")":
+        elif s[i] == ")":
             counter -= 1
             if counter < 0: return False
     return counter == 0

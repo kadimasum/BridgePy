@@ -6,9 +6,9 @@ class Solution:
     number_of_days_in_week = 7
 
     @classmethod
-    def solution(cls, S, k):
-        position_of_S = cls.days_of_the_week.index(S)
-        offset_days = (position_of_S + k) % cls.number_of_days_in_week
+    def solution(cls, day, k):
+        position_of_day = cls.days_of_the_week.index(day)
+        offset_days = (position_of_day + k) % cls.number_of_days_in_week
         return cls.days_of_the_week[offset_days]
 
 
