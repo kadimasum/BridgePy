@@ -20,7 +20,7 @@ six.right = seven
 one.right = three
 
 def min_tree_value(root):
-    if root ==  None: return float("-inf")
+    if root ==  None: return float("inf")
     queue = [root]
     min_value = float("inf")
     while len(queue) > 0:
