@@ -16,17 +16,16 @@ nine.next = seven
 seven.next = thirteen
 
 def get_node(head, index):
-    if head == None: return float('inf')
+    if head == None: return None
     current = head
-    count = 0
     while current:
-        if count == index:
+        if index == 0:
             return current.data
         current = current.next
-        count += 1
+        index -= 1
 
-    return float('inf')
+    return None
 
-result = get_node(one, 10)
+result = get_node(one, 1)
 print(result)
     
