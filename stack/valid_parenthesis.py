@@ -5,7 +5,7 @@ def is_valid(s):
     stack = []
     parenthesis_map = { '{':'}', '(':')', '[':']' }
     for char in s:
-        if char in parenthesis_map.keys():
+        if char in parenthesis_map:
             stack.append(parenthesis_map[char])
         elif not stack or stack[-1] != char:
             return False
